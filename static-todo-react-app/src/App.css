@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+
+ul{
+  list-style-type: square;
+  display: inline-block;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: auto;
+  margin: auto;
+}
+
+li:hover {
+  background-color: yellow;
+}
