@@ -5,12 +5,12 @@ function ToDoList() {
     return (
         <div>
             <ul>
-                <li>{toDoListArray[0]}</li>
-                <li>{toDoListArray[1]}</li>
-                <li>{toDoListArray[2]}</li>
+                {toDoListArray.map((task, index) => (
+                    <li key={index}>{task}</li>
+                ))}
             </ul>
         </div>
-    )
+    );
 }
 
 export default ToDoList;
